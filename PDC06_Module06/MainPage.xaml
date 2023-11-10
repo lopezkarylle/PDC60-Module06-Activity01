@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC06_Module06.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <Button Text="Accelorometer Page" Clicked="AccelerometerPage_Clicked"/>
+        <Button Text="Connectivity Page" Clicked="ConnectivityPage_Clicked"/>
+        <Button Text="Device Battery Page" Clicked="DeviceBatteryPage_Clicked"/>
+        <Button Text="Geolocation Page" Clicked="GeolocationPage_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
